@@ -8,7 +8,7 @@ app = FastAPI(
 )
 
 @app.post(
-    "/transactions/validate",
+    "/transactions/Validate",
     response_model=TransactionResponse,
     summary="Validate Transaction",
     description="""
