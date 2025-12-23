@@ -31,7 +31,7 @@ print('\n--- Valid transaction ---')
 post({
     'transaction_id': 'txn_2',
     'user_id': 'user_2',
-    'amount': 100.5,
+    'amount': 1000.5,
     'currency': 'USD',
     'merchant': 'Shop'
 })
